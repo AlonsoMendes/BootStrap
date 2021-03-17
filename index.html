@@ -15,7 +15,12 @@
       width: 50px;
       height: 50px;
     }
+
+    html {
+      scroll-behavior: smooth;
+    }
   </style>
+  
 
   <title>FPS</title>
 </head>
@@ -27,7 +32,6 @@
       <img src="./assets/img/logo2.png" width="60" height="30" class="d-inline-block align-top" alt="">
       🆃🆁🅴🆉🅴
     </a>
-
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
       aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -43,9 +47,9 @@
           <a class="nav-link" href="#"> Lançamentos <span class="sr-only">(página atual)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#"> Jogos gratis <span class="sr-only">(página atual)</span></a>
+          <a class="nav-link" href="#gratis"> Jogos gratis <span class="sr-only">(página atual)</span></a>
         </li>
-          <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Menu
@@ -61,18 +65,21 @@
         </li>
       </ul>
 
-     
       <form class="form-inline my-2 my-lg-0  ">
         <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
         <button class="btn btn-outline-light my-2 my-sm-1 mr-2 " type="submit">Pesquisar</button>
-        <button class="btn btn-outline-light my-2 my-sm-1 " type="submit" data-toggle="modal" data-target="#modalLogin">Logar</button>
-        
+        <button class="btn btn-outline-light my-2 my-sm-1 " type="submit" data-toggle="modal"
+          data-target="#modalLogin">Logar</button>
+
       </form>
-
     </div>
-
   </nav>
   <!--/NavBar-->
+
+  <div class="mt-5">
+    <p>
+    </p>
+  </div>
 
   <!--Carousel-->
 
@@ -96,7 +103,6 @@
       <div class="carousel-item">
         <img class="d-block w-100" src="./assets/img/overwatch.jpg" alt="Terceiro Slide">
       </div>
-
     </div>
     <a class="carousel-control-prev" href="#carouselImagens" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -119,12 +125,10 @@
 
     <div class="row w-100">
       <div class="col d-flex justify-content-center">
-        <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal"  role="button">Cadastre-se
+        <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modal" role="button">Cadastre-se
           já</a>
       </div>
     </div>
-
-
   </div>
   <!--/Jumbotron-->
 
@@ -148,7 +152,7 @@
           <p class="card-text">Red Dead Redemption 2, a épica aventura de mundo aberto da Rockstar Games aclamada
             pela crítica e o jogo mais bem avaliado desta geração de consoles, agora chega aprimorado para PC com
             conteúdos inéditos no Modo História, melhorias visuais e muito mais.</p>
-            <button type="button" class="btn btn-primary btn-lg ">Jogar</button>
+          <button type="button" class="btn btn-primary btn-lg ">Jogar</button>
         </div>
       </div>
       <div class="card  bg-dark mb-4 w-100">
@@ -167,7 +171,8 @@
         <div class="card-body">
           <h5 class="card-title">Warframe</h5>
           <p class="card-text">Warframe é um jogo de ação free-to-play online em um mundo de ficção científica.
-            Acompanhe os seus amigos em ataques jogar vs inimigos através do sistema solar e maximize os poderes dos Warframes.
+            Acompanhe os seus amigos em ataques jogar vs inimigos através do sistema solar e maximize os poderes dos
+            Warframes.
             Permaneça sozinho ou lute junto contra inimigos que ameaçam o seu mundo.</p>
           <button type="button" class="btn btn-primary btn-lg">Jogar</button>
         </div>
@@ -219,6 +224,9 @@
       <div class="col p-0  d-flex justify-content-center">
         <img src="assets/img/imagem.gif.png" class="img-fluid h-auto" alt="Imagem responsiva">
       </div>
+      <div id="gratis" class="mt-5">
+        <p></p>
+      </div>
     </div>
     <!--/GIF-->
 
@@ -232,41 +240,42 @@
 
 
     <!-- Deck 2-->
-        <div class="card-deck w-100">
-          <div class="card  bg-dark mb-3 w-100">
-            <img class="card-img-top" src="./assets/img/Overwatch1.jpg" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Overwatch</h5>
-              <p class="card-text">Overwatch é um jogo de tiro em equipe que conta com um elenco diversificado 
-                de heróis poderosíssimos. Viaje pelo mundo, monte uma equipe e dispute objetivos em combates 6v6 
-                de tirar o fôlego.. </p>
-              <button type="button" class="btn btn-primary btn-lg">Jogar</button>
-            </div>
-          </div>
-          <div class="card  bg-dark mb-3 w-100">
-            <img class="card-img-top" src="./assets/img/csgo.jpg" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Counter-Strike: Global Offensive </h5>
-              <p class="card-text">CS GO expandirá na jogabilidade de ação baseada em equipes na qual foi
-                pioneiro quando foi lançado há 12 anos. CS: GO contém novos mapas, personagens e armas, além de conter 
-                versões atualizadas de conteúdos do CS clássico.
-              </p>
-              <button type="button" class="btn btn-primary btn-lg">Jogar</button>
-            </div>
-          </div>
-          <div class="card  bg-dark mb-3 w-100">
-            <img class="card-img-top" src="./assets/img/WAR.jpg" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Call of Duty Warzone</h5>
-              <p class="card-text"> Um navio misterioso chega à costa de Verdansk enquanto o caos
-                 irrompe na cidade. Junta a tua equipa para a Temporada Dois do Battle Royale free-to-play do Call of Duty Warzone,
-                 chame seus amigos e vamos juntos para esse guerra.
-                 </p>
-              <button type="button" class="btn btn-primary btn-lg">Jogar</button>
-    
-            </div>
-          </div>
+    <div class="card-deck w-100">
+      <div class="card  bg-dark mb-3 w-100">
+        <img class="card-img-top" src="./assets/img/Overwatch1.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Overwatch</h5>
+          <p class="card-text">Overwatch é um jogo de tiro em equipe que conta com um elenco diversificado
+            de heróis poderosíssimos. Viaje pelo mundo, monte uma equipe e dispute objetivos em combates 6v6
+            de tirar o fôlego.. </p>
+          <button type="button" class="btn btn-primary btn-lg">Jogar</button>
         </div>
+      </div>
+      <div class="card  bg-dark mb-3 w-100">
+        <img class="card-img-top" src="./assets/img/csgo.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Counter-Strike: Global Offensive </h5>
+          <p class="card-text">CS GO expandirá na jogabilidade de ação baseada em equipes na qual foi
+            pioneiro quando foi lançado há 12 anos. CS: GO contém novos mapas, personagens e armas, além de conter
+            versões atualizadas de conteúdos do CS clássico.
+          </p>
+          <button type="button" class="btn btn-primary btn-lg">Jogar</button>
+        </div>
+      </div>
+      <div class="card  bg-dark mb-3 w-100">
+        <img class="card-img-top" src="./assets/img/WAR.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Call of Duty Warzone</h5>
+          <p class="card-text"> Um navio misterioso chega à costa de Verdansk enquanto o caos
+            irrompe na cidade. Junta a tua equipa para a Temporada Dois do Battle Royale free-to-play do Call of Duty
+            Warzone,
+            chame seus amigos e vamos juntos para esse guerra.
+          </p>
+          <button type="button" class="btn btn-primary btn-lg">Jogar</button>
+
+        </div>
+      </div>
+    </div>
 
     <!-- /Deck 2-->
 
@@ -285,8 +294,10 @@
           "Counter-Strike surpreendeu a indústria de jogos quando o improvável MOD virou o jogo de ação online para PC
           mais jogado no mundo quase imediatamente após seu lançamento em agosto de 1999," disse Doug Lombardi na Valve.
           "Pelos últimos 12 anos, ele continuou sendo um dos jogos mais jogados no mundo, manteve destaque em torneios
-          competitivos de jogos e a franquia vendeu mais de 26 milhões de cópias no mundo todo. CS: GO promete expandir na
-          jogabilidade premiada de CS' e permitir seu acesso por jogadores não só no PC, mas também em consoles de última geração e
+          competitivos de jogos e a franquia vendeu mais de 26 milhões de cópias no mundo todo. CS: GO promete expandir
+          na
+          jogabilidade premiada de CS' e permitir seu acesso por jogadores não só no PC, mas também em consoles de
+          última geração e
           no Mac."
         </p>
       </div>
@@ -331,14 +342,15 @@
 
           <div class="mb-3">
             <label for="validationTextarea">Texto</label>
-            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-            <div class="invalid-feedback">
-              Por favor, insira uma mensagem na área de texto.
+            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea"
+              required></textarea>
+            <div class="valid-feedback">
+              
             </div>
           </div>
 
           <div class="form-group d-flex justify-content-lg-start">
-            <button class="btn btn-outline-lift">Enviar</button>
+            <button class="btn btn-outline-lift" type="submit" > Enviar</button>
           </div>
         </form>
       </div>
@@ -405,8 +417,8 @@
               <input type="text" class="form-control" id="validationDefault01" placeholder="Nome">
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Endereço de email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              <label for="exampleInputEmail">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
                 placeholder="nome@exemplo.com">
               <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
                 ninguém.</small>
@@ -432,49 +444,52 @@
       </div>
     </div>
   </div>
- <!-- /Modal Cadastro -->
+  <!-- /Modal Cadastro -->
 
-<!-- Modal Login -->
-<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content bg-light">
-      <div class="modal-header">
-        <h5 class="modal-title" id="TituloModalCentralizado">Login</h5>
-        <img src="./assets/img/logo1.png" width="60" height="30" class="d-inline-block align-top" alt="">
-        🆃🆁🅴🆉🅴
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Endereço de email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Salvar senha</label>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <div class="text-primary justify-content-between">
-          <a class="btn btn-white btn-lg" data-toggle="modal" data-target="#modal" data-dismiss="modal" role="button">Realizar Cadastro</a>
+  <!-- Modal Login -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content bg-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="TituloModalCentralizado">Login</h5>
+          <img src="./assets/img/logo1.png" width="60" height="30" class="d-inline-block align-top" alt="">
+          🆃🆁🅴🆉🅴
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Seu email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Salvar senha</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <div class="text-primary justify-content-between">
+            <a class="btn btn-white btn-lg" data-toggle="modal" data-target="#modal" data-dismiss="modal"
+              role="button">Realizar Cadastro</a>
 
-       </div>
+          </div>
 
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Entrar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Entrar</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- /Modal Login -->
+  <!-- /Modal Login -->
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
